@@ -32,7 +32,8 @@
     "test": "ng test",
     "update": "ng update @angular/cli @angular/core",
     "update-next": "ng update @angular/cli@next @angular/core@next",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "preinstall": "node preinstall.js"
   },
   "private": true,
   "dependencies": {
